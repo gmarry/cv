@@ -202,6 +202,7 @@ layout: page
 
             <div class="section-content">
                 <div class="vcard clearfix">
+                    <p class="adr margin-off"><span class="locality"> {{ site.author.address.town }}</span>, <span class="country"> {{ site.author.address.country }}</span></p>
                     <p class="tel margin-off">Tel: <a class="telephone" href="callto:{{ site.author.phone | remove: " "}}" rel="noindex, nofollow">{{ site.author.phone }}</a></p>
                     <p class="eml margin-off">Email: <a class="email" href="mailto:{{ site.author.email }}" rel="noindex, nofollow">{{ site.author.email }}</a></p>
                 </div>
@@ -212,3 +213,4 @@ layout: page
     </div>
 
 </section>
+    
